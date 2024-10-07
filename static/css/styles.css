@@ -1,0 +1,48 @@
+/* static/css/styles.css */
+
+/* Общие стили для страницы */
+body {
+    background-color: #f8f9fa; /* Светлый фон для всего тела страницы */
+}
+
+/* Стили для заголовков */
+h1, h3 {
+    color: #343a40; /* Темно-серый цвет для заголовков */
+}
+
+/* Стили для формы */
+form {
+    background-color: #ffffff; /* Белый фон для формы */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Небольшая тень для объема */
+}
+
+/* Стили для кнопок добавления и удаления координат */
+.add-coordinate, .remove-coordinate {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стили для таблицы результатов */
+table {
+    background-color: #ffffff; /* Белый фон для таблицы */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Небольшая тень для объема */
+}
+
+/* Стили для ссылок на Google Maps */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
